@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'at.helpch'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url "https://maven.hytale.com/release/" }
+    maven { url "https://repo.helpch.at/releases" }
+}
+
+dependencies {
+    compileOnly "com.hypixel.hytale:Server:2026.01.24-6e2d4fc36"
+    compileOnly "at.helpch:placeholderapi-hytale:1.0.4"
+    compileOnly files("libs/rpglevelling.jar")
+}
