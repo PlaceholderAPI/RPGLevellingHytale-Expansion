@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'at.helpch'
-version = '1.0.0'
+version = '1.0.1'
 
 repositories {
     mavenCentral()
@@ -14,5 +14,5 @@ repositories {
 dependencies {
     compileOnly "com.hypixel.hytale:Server:2026.01.24-6e2d4fc36"
     compileOnly "at.helpch:placeholderapi-hytale:1.0.4"
-    compileOnly files("libs/rpglevelling.jar")
+    compileOnly files("libs/rpg.jar")
 }
